@@ -1,0 +1,38 @@
+
+/* Aqui ele pinta tanto o H1 quanto o A com as condições passadas */
+
+h1,
+a {
+    color:purple;
+    text-decoration: none;
+}
+
+/* Este arquetipo aqui é forçar condição onde a esteja em p ou seja A dentro de P */
+
+p a {
+    color :green;
+}
+
+/* #NOMEDOID vai focar no nome do ID que temos em nossa tag.Id sendo um parametro unico*/
+
+#Intro{
+    color :blue;
+}
+
+/* .NOMECLASSE vai ser criada primeiramente no CSS para que possa ser utilizada seus parametros*/
+
+.Design{
+    color : rgb(1, 139, 98);
+}
+
+.corAzul{
+    color:rgba(0, 162, 255, 0.356);
+}
+
+.fonteTamanhoGrande{
+    font-size: large;
+}
+
+.Decoracao{
+    text-decoration: underline;
+}
