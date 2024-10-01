@@ -1,0 +1,24 @@
+.flex{
+    display: flex;
+    flex-wrap: wrap;/* indica se ele deve quebrar uma nova linha ou não, e logo após ele ira quebrar as palavras*/
+    justify-content: center;
+    align-content: center;
+    background: black;
+    gap: 20px;
+}
+.grid{
+    display: grid;
+    margin-top: 60px;
+    grid-template-columns: repeat(auto-fit,minmax(150px,auto)) ;
+}
+body{
+    margin: 0px;
+}
+
+/*Caso queira justificar o counteudo JAMAIS utilizar flex pois o mesmo não vai funcionar*/
+h2{
+    margin-right: 20px;
+    background: #e7e7e7;
+    border: 1px solid red;
+    margin: 0px;
+}
